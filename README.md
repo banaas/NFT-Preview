@@ -1,2 +1,2 @@
-# NFT-Preview
-I created an NFT Component Preview, with the use of both HTML and CSS.
+# NFT Preview Card Component
+This is an NFT Component Preview, which demonstrates my skills of HTML and CSS. 

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+main {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+hr {
+    color: hsl(215, 32%, 27%);
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#avatar_img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 50px;
+}
+p {
+    font-size: 18px;
+}
+.eq {
+    max-width: 305px;
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+}
+#view {
+    background: hsla(178, 100%, 56%, 1) center;
+    background-size: cover;
+    width: 305px;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 115px;
+    opacity: 0;
+}
+#view:hover {
+    opacity: 0.75;
+}
+.cursor {
+    cursor: pointer;
+}
+.hover:hover {
+    color: hsl(178, 100%, 50%);
+}
+.soft_blue {
+    color: hsl(215, 51%, 70%);
+}
+.white {
+    color: hsl(0, 0%, 100%);
+}
+.cyan {
+    color: hsl(178, 100%, 50%);
+}
+.flex {
+    display: flex;
+}
+.space_between {
+    justify-content: space-between;
+}
+.align_center {
+    align-self: center;
+}
+.main {
+    padding: 15px;
+}
+.pad150 {
+    padding: 15px 0;
+}
+.padleft10 {
+    padding-left: 10px;
+}
+.ethereum::before {
+    content: url("images/icon-ethereum.svg");
+}
+.clock::before {
+    content: url("images/icon-clock.svg");
+}
